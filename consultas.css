@@ -1,0 +1,73 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    color:#1b1521;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border-radius: 3em;
+    border: 10px solid black;
+}
+
+form div + div{
+    margin-top: 5em;
+
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 40px;
+
+}
+
+label{
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhados*/
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+button {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.buttonNext{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+
+}
+
+
